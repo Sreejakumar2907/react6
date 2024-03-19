@@ -1,0 +1,447 @@
+.forBody-title{
+    position: relative;
+    top: -750px;
+}
+.forBody-title h3{
+    position: absolute;
+    left: 680px;
+    color: beige;
+}
+.forBody-div{
+    position: relative;
+    height: 350px;
+    width: 800px;
+    border: 1px solid beige;
+    background-color: beige;
+    top: -650px;
+    left: 360px;
+    border-radius: 10px;
+}
+.forBody-line1{
+    position: absolute;
+    height: 250px;
+    width: 40px;
+    border: 1px solid rgb(152, 122, 82);
+    background-color: rgb(152, 122, 82);
+    border-radius: 50px;
+    top: 50px;
+    left: 50px;
+}
+.forBody-line2{
+    position: absolute;
+    height: 170px;
+    width: 40px;
+    border: 1px solid rgb(152, 122, 82);
+    background-color: rgb(152, 122, 82);
+    border-radius: 50px;
+    top: 50px;
+    left: 100px;
+}
+.forBody-quote1{
+    position: absolute;
+    top: 70px;
+    left: 230px;
+}
+.forBody-quote2{
+    position: absolute;
+    top: 220px;
+    left: 630px;
+}
+.forBody-p{
+    position: absolute;
+    width: 400px;
+    top: 110px;
+    left: 270px;
+    font-size: 25px;
+}
+.bodyWash-items{
+    position: relative;
+    display: flex;
+    margin-bottom: 900px;
+}
+.bodyWash1{
+    position: absolute;
+    top: -550px;
+    left: 60px;
+    border-radius: 15px;
+    width: 250px;
+    height: 230px;
+}
+.bodyWash2{
+    position: absolute;
+    top: -550px;
+    left: 345px;
+    border-radius: 15px;
+    width: 250px;
+    height: 230px;
+}
+.bodyWash3{
+    position: absolute;
+    top: -550px;
+    left: 630px;
+    border-radius: 15px;
+    width: 250px;
+    height: 230px;
+}
+.bodyWash4{
+    position: absolute;
+    top: -550px;
+    left: 920px;
+    border-radius: 15px;
+    width: 250px;
+    height: 230px;
+}
+.bodyWash5{
+    position: absolute;
+    top: -550px;
+    left: 1200px;
+    border-radius: 15px;
+    width: 250px;
+    height: 230px;
+}
+.bodyWash6{
+    position: absolute;
+    top: -150px;
+    left: 60px;
+    border-radius: 15px;
+    width: 250px;
+    height: 230px;
+}
+.bodyWash7{
+    position: absolute;
+    top: -150px;
+    left: 345px;
+    border-radius: 15px;
+    width: 250px;
+    height: 230px;
+    
+}
+.bodyWash8{
+    position: absolute;
+    top: -150px;
+    left: 630px;
+    border-radius: 15px;
+    width: 250px;
+    height: 230px;
+}
+.bodyWash9{
+    position: absolute;
+    top: -150px;
+    left: 920px;
+    border-radius: 15px;
+    width: 250px;
+    height: 230px;
+}
+.bodyWash10{
+    position: absolute;
+    top: -150px;
+    left: 1200px;
+    border-radius: 15px;
+    width: 250px;
+    height: 230px;
+}.bodyWash-btn1{
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    top: -290px;
+    left: 90px;
+    border: 1px solid beige;
+    background-color: beige;
+}
+.bodyWash-btn2{
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    top: -290px;
+    left: 375px;
+    border: 1px solid beige;
+    background-color: beige;
+}
+.bodyWash-btn3{
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    top: -290px;
+    left: 665px;
+    border: 1px solid beige;
+    background-color: beige;
+}
+.bodyWash-btn4{
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    top: -290px;
+    left: 955px;
+    border: 1px solid beige;
+    background-color: beige;
+}
+.bodyWash-btn5{
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    top: -290px;
+    left: 1235px;
+    border: 1px solid beige;
+    background-color: beige;
+}
+.bodyWash-btn6{
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    top: 110px;
+    left: 90px;
+    border: 1px solid beige;
+    background-color: beige;
+}
+.bodyWash-btn7{
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    top: 110px;
+    left: 375px;
+    border: 1px solid beige;
+    background-color: beige;
+}
+.bodyWash-btn8{
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    top: 110px;
+    left: 665px;
+    border: 1px solid beige;
+    background-color: beige;
+}
+.bodyWash-btn9{
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    top: 110px;
+    left: 955px;
+    border: 1px solid beige;
+    background-color: beige;
+}
+.bodyWash-btn10{
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    top: 110px;
+    left: 1235px;
+    border: 1px solid beige;
+    background-color: beige;
+}
+.forBody-div-1{
+    position: relative;
+    height: 350px;
+    width: 800px;
+    border: 1px solid beige;
+    background-color: beige;
+    top: -500px;
+    left: 360px;
+    border-radius: 10px;
+}
+.bodyCream{
+    position: relative;
+    top: -600px;
+   
+}
+.bodyCream h3{
+    position: absolute;
+    left: 660px;
+    color: beige;
+}
+.bodyCream-title{
+    position: relative;
+    display: flex;
+    margin-bottom: 560px;
+}
+.bodyCream1{
+    position: absolute;
+    top: -400px;
+    left: 60px;
+    border-radius: 15px;
+    width: 250px;
+    height: 230px;
+}
+.bodyCream2{
+    position: absolute;
+    top: -400px;
+    left: 345px;
+    border-radius: 15px;
+    width: 250px;
+    height: 230px;
+}
+.bodyCream3{
+    position: absolute;
+    top: -400px;
+    left: 630px;
+    border-radius: 15px;
+    width: 250px;
+    height: 230px;
+}
+.bodyCream4{
+    position: absolute;
+    top: -400px;
+    left: 920px;
+    border-radius: 15px;
+    width: 250px;
+    height: 230px;
+}
+.bodyCream5{
+    position: absolute;
+    top: -400px;
+    left: 1200px;
+    border-radius: 15px;
+    width: 250px;
+    height: 230px;
+}
+.bodyCream6{
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    border-radius: 15px;
+    width: 250px;
+    height: 230px;
+}
+.bodyCream7{
+    position: absolute;
+    top: 10px;
+    left: 345px;
+    border-radius: 15px;
+    width: 250px;
+    height: 230px;
+}
+.bodyCream8{
+    position: absolute;
+    top: 10px;
+    left: 630px;
+    border-radius: 15px;
+    width: 250px;
+    height: 230px;
+}
+.bodyCream9{
+    position: absolute;
+    top: 10px;
+    left: 920px;
+    border-radius: 15px;
+    width: 250px;
+    height: 230px;
+}
+.bodyCream10{
+    position: absolute;
+    top: 10px;
+    left: 1200px;
+    border-radius: 15px;
+    width: 250px;
+    height: 230px;
+}
+.bodyCream-btn1{
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    top: -140px;
+    left: 90px;
+    border: 1px solid beige;
+    background-color: beige;
+}
+.bodyCream-btn2{
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    top: -140px;
+    left: 375px;
+    border: 1px solid beige;
+    background-color: beige;
+}
+.bodyCream-btn3{
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    top: -140px;
+    left: 665px;
+    border: 1px solid beige;
+    background-color: beige;
+}
+.bodyCream-btn4{
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    top: -140px;
+    left: 955px;
+    border: 1px solid beige;
+    background-color: beige;
+}
+.bodyCream-btn5{
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    top: -140px;
+    left: 1235px;
+    border: 1px solid beige;
+    background-color: beige;
+}
+.bodyCream-btn6{
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    top: 270px;
+    left: 90px;
+    border: 1px solid beige;
+    background-color: beige;
+}
+.bodyCream-btn7{
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    top: 270px;
+    left: 375px;
+    border: 1px solid beige;
+    background-color: beige;
+}
+.bodyCream-btn8{
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    top: 270px;
+    left: 665px;
+    border: 1px solid beige;
+    background-color: beige;
+}
+.bodyCream-btn9{
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    top: 270px;
+    left: 955px;
+    border: 1px solid beige;
+    background-color: beige;
+}
+.bodyCream-btn10{
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    top: 270px;
+    left: 1235px;
+    border: 1px solid beige;
+    background-color: beige;
+}
+

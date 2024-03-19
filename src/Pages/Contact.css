@@ -1,0 +1,85 @@
+.contact{
+    height: 400px;
+    width: 800px;
+    border: 1px solid beige;
+    background-color: beige;
+    position: relative;
+    top: -730px;
+    left: 360px;
+    border-radius: 15px;
+}
+.contact-line1{
+    height: 270px;
+    width: 40px;
+    border: 1px solid rgb(152, 122, 82);
+    background-color: rgb(152, 122, 82);
+    border-radius: 50px;
+    position: absolute;
+    top: 55px;
+    left: 50px;
+}
+.contact-line2{
+    height: 160px;
+    width: 40px;
+    border: 1px solid rgb(152, 122, 82);
+    background-color: rgb(152, 122, 82);
+    border-radius: 50px;
+    position: absolute;
+    top: 55px;
+    left: 100px;
+}
+.contact-quote1{
+    position: absolute;
+    top: 70px;
+    left: 190px;
+}
+.contact-quote2{
+    position: absolute;
+    top: 270px;
+    left: 590px;
+}
+.contact-para{
+    position: absolute;
+    top: 100px;
+    left: 210px;
+    width: 500px;
+    font-size: 20px;
+}
+.contact-para-2{
+    position: absolute;
+    top: 230px;
+    left: 500px;
+}
+.connect{
+    position: relative;
+    top: -650px;
+}
+.connect h3{
+    position: absolute;
+    left: 650px;
+    color: beige;
+}.informations{
+    position: relative;
+    top: -570px;
+    margin-bottom: -230px;
+}
+.contact-para1{
+    position: absolute;
+    left: 560px;
+    color: beige;
+    font-size: 18px;
+}
+.contact-para2{
+    position: absolute;
+    left: 600px;
+    color: beige;
+    top: 40px;
+    font-size: 18px;
+}
+.contact-para3{
+    position: absolute;
+    left: 620px;
+    color: beige;
+    top: 80px;
+    font-size: 18px;
+}
