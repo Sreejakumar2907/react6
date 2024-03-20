@@ -53,196 +53,8 @@
     left: 250px;
     font-size: 20px;
 }
-.hair{
-    position: absolute;
-    left: 250px;
-    width: 200px;
-    top: 40px;
-}
-.hairOil-items{
-    position: relative;
-    display: flex;
-    margin-bottom: 700px;
-}
-.hairOil1{
-    position: absolute;
-    top: -550px;
-    left: 60px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.hairOil2{
-    position: absolute;
-    top: -550px;
-    left: 345px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.hairOil3{
-    position: absolute;
-    top: -550px;
-    left: 630px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.hairOil4{
-    position: absolute;
-    top: -550px;
-    left: 920px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.hairOil5{
-    position: absolute;
-    top: -550px;
-    left: 1200px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.hairOil6{
-    position: absolute;
-    top: -150px;
-    left: 60px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.hairOil7{
-    position: absolute;
-    top: -150px;
-    left: 345px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.hairOil8{
-    position: absolute;
-    top: -150px;
-    left: 630px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.hairOil9{
-    position: absolute;
-    top: -150px;
-    left: 920px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.hairOil10{
-    position: absolute;
-    top: -150px;
-    left: 1200px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}.hairOil-btn1{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -290px;
-    left: 90px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.hairOil-btn2{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -290px;
-    left: 375px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.hairOil-btn3{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -290px;
-    left: 665px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.hairOil-btn4{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -290px;
-    left: 955px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.hairOil-btn5{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -290px;
-    left: 1235px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.hairOil-btn6{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: 110px;
-    left: 90px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.hairOil-btn7{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: 110px;
-    left: 375px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.hairOil-btn8{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: 110px;
-    left: 665px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.hairOil-btn9{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: 110px;
-    left: 955px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.hairOil-btn10{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: 110px;
-    left: 1235px;
-    border: 1px solid beige;
-    background-color: beige;
-}
+
+
 .forHair-div-2{
     height: 350px;
     width: 800px;
@@ -250,201 +62,141 @@
     border: 1px solid beige;
     background-color: beige;
     position: relative;
-    top: -350px;
+    top: 370px;
     left: 370px;
-    margin-bottom: 700px;
+    margin-bottom: 500px;
 }
 .shampoo-title{
     position: relative;
-    top: -450px;
+    top: 280px;
 }
 .shampoo-title h3{
     position: absolute;
     left: 700px;
     color: beige;
 }
-.shampoo-items{
+
+
+
+
+.hairOil-item1{
     position: relative;
     display: flex;
-}
-.shampoo1{
+    flex-wrap: wrap;
+    gap: 210px ;
+    top: -600px;
+    margin-left: 50px;  
+} 
+.hairOil-img{
     position: absolute;
-    top: -950px;
-    left: 60px;
-    border-radius: 15px;
     width: 250px;
     height: 230px;
+    border-radius: 10px;
+    top: 70px;
+  
 }
-.shampoo2{
+.hairOil-price1{
+    position: relative;
+    top: 330px;
+    left: 85px;
+    color: beige;
+}
+
+
+.hairOil-item2{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 210px ;
+    top: -200px;
+    margin-left: 50px;  
+} 
+.hairOil-img2{
     position: absolute;
-    top: -950px;
-    left: 345px;
-    border-radius: 15px;
     width: 250px;
     height: 230px;
+    border-radius: 10px;
+    top: 90px;
+  
 }
-.shampoo3{
+.hairOil-price2{
+    position: relative;
+    top: 350px;
+    left: 85px;
+    color: beige;
+}
+
+
+.shampoo-item1{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 210px ;
+    top: -100px;
+    margin-left: 50px;  
+} 
+.shampoo-img{
     position: absolute;
-    top: -950px;
-    left: 630px;
-    border-radius: 15px;
     width: 250px;
     height: 230px;
+    border-radius: 10px;
+    top: 90px;
+  
 }
-.shampoo4{
+.shampoo-price1{
+    position: relative;
+    top: 350px;
+    left: 85px;
+    color: beige;
+}
+
+
+.shampoo-item2{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 210px ;
+    top: 330px;
+    margin-left: 50px;
+    margin-bottom: 990px;  
+} 
+.shampoo-img2{
     position: absolute;
-    top: -950px;
-    left: 920px;
-    border-radius: 15px;
     width: 250px;
     height: 230px;
-}
-.shampoo5{
-    position: absolute;
-    top: -950px;
-    left: 1200px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.shampoo6{
-    position: absolute;
-    top: -550px;
-    left: 60px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.shampoo7{
-    position: absolute;
-    top: -550px;
-    left: 345px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.shampoo8{
-    position: absolute;
-    top: -550px;
-    left: 630px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.shampoo9{
-    position: absolute;
-    top: -550px;
-    left: 920px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.shampoo10{
-    position: absolute;
-    top: -550px;
-    left: 1200px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.shampoo-btn1{
-    width: 190px;
-    height: 50px;
     border-radius: 10px;
-    position: absolute;
-    top: -690px;
-    left: 90px;
-    border: 1px solid beige;
-    background-color: beige;
+    top: 90px;
+  
 }
-.shampoo-btn2{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -690px;
-    left: 375px;
-    border: 1px solid beige;
-    background-color: beige;
+.shampoo-price2{
+    position: relative;
+    top: 350px;
+    left: 85px;
+    color: beige;
 }
-.shampoo-btn3{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -690px;
-    left: 665px;
-    border: 1px solid beige;
-    background-color: beige;
+
+.star-9{
+    position: relative;
+    color: beige;
+    top: 325px;
+    left: 85px;
 }
-.shampoo-btn4{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -690px;
-    left: 955px;
-    border: 1px solid beige;
-    background-color: beige;
+.star-10{
+    position: relative;
+    color: beige;
+    top: 340px;
+    left: 85px;
 }
-.shampoo-btn5{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -690px;
-    left: 1235px;
-    border: 1px solid beige;
-    background-color: beige;
+.star-11{
+    position: relative;
+    color: beige;
+    top: 340px;
+    left: 85px;
 }
-.shampoo-btn6{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -290px;
-    left: 90px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.shampoo-btn7{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -290px;
-    left: 375px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.shampoo-btn8{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -290px;
-    left: 665px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.shampoo-btn9{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -290px;
-    left: 955px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.shampoo-btn10{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -290px;
-    left: 1235px;
-    border: 1px solid beige;
-    background-color: beige;
+.star-12{
+    position: relative;
+    color: beige;
+    top: 340px;
+    left: 85px;
 }
 

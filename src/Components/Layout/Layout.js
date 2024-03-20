@@ -8,7 +8,6 @@ import data from '../Data/Data'
 
 const Layout = () => {
 const {productDetail}=data
-console.log(productDetail);
   return (
    <>
    <Header/>

@@ -19,7 +19,7 @@ const Routers = ({productDetails}) => {
     <Route path="home" element={<Home/>} />
     <Route path="about" element={<About/>} />
     <Route path='forFace' element= {<ForFace  productDetails={productDetails} />}/>
-    <Route path='forBody' element= {<ForBody/>}/>
+    <Route path='forBody' element= {<ForBody  productDetails={productDetails} />}/>
     <Route path='forHair' element= {<ForHair/>}/>
     <Route path="contact" element={<Contact/>} />
    </Routes>

@@ -1,26 +1,9 @@
 import React from 'react'
 import  '../Pages/ForBody.css'
 import { RiDoubleQuotesL,RiDoubleQuotesR } from "react-icons/ri";
-import bodyWash1 from '../asserts/Image/bodywash1.jpeg'
-import bodyWash2 from '../asserts/Image/bodywash2.jpeg'
-import bodyWash3 from '../asserts/Image/bodywash3.jpeg'
-import bodyWash4 from '../asserts/Image/bodywash4.jpeg'
-import bodyWash5 from '../asserts/Image/bodywash5.jpeg'
-import bodyWash6 from '../asserts/Image/bodywash6.jpeg'
-import bodyWash7 from '../asserts/Image/bodywash-7.jpeg'
-import bodyWash8 from '../asserts/Image/bodywash8.webp'
-import bodyWash9 from '../asserts/Image/bodywash9.webp'
-import bodyWash10 from '../asserts/Image/bodywash10.jpeg'
-import bodyCream1 from '../asserts/Image/bodycream1.webp'
-import bodyCream2 from '../asserts/Image/bodycream2.webp'
-import bodyCream3 from '../asserts/Image/bodycream3.webp'
-import bodyCream4 from '../asserts/Image/bodycream4.webp'
-import bodyCream5 from '../asserts/Image/bodycream5.jpeg'
-import bodyCream6 from '../asserts/Image/bodycream6.jpeg'
-import bodyCream7 from '../asserts/Image/bodycream7.webp'
-import bodyCream8 from '../asserts/Image/bodycream8.webp'
-import bodyCream9 from '../asserts/Image/bodycream9.webp'
-import bodyCream10 from '../asserts/Image/bodycream10.jpg'
+import data from '../Components/Data/Data';
+import { FaStar,  } from "react-icons/fa6";
+import { FaRegStar } from "react-icons/fa";
 const ForBody = () => {
   return (
    <>
@@ -35,49 +18,33 @@ const ForBody = () => {
     <RiDoubleQuotesR className='forBody-quote2' size= '2em' color='rgb(152, 122, 82)' />
    </div>
 
-    <div className='bodyWash-items'>
-     <div>
-     <img className='bodyWash1' src= {bodyWash1}/>
-      <button className='bodyWash-btn1'>Add to cart</button>
-     </div>
-     <div>
-     <img  className='bodyWash2' src= {bodyWash2}/>
-      <button className='bodyWash-btn2'>Add to cart</button>
-     </div>
-     <div>
-     <img  className='bodyWash3' src= {bodyWash3}/>
-      <button className='bodyWash-btn3'>Add to cart</button>
-     </div>
-     <div>
-     <img  className='bodyWash4' src= {bodyWash4}/>
-      <button className='bodyWash-btn4'>Add to cart</button>
-     </div>
-     <div>
-     <img  className='bodyWash5' src= {bodyWash5}/>
-      <button className='bodyWash-btn5'>Add to cart</button>
-     </div>
-     <div>
-     <img  className='bodyWash6' src= {bodyWash6}/>
-      <button className='bodyWash-btn6'>Add to cart</button>
-     </div>
-     <div>
-     <img  className='bodyWash7' src= {bodyWash7}/>
-      <button className='bodyWash-btn7'> Add to cart</button>
-     </div>
-     <div>
-     <img  className='bodyWash8' src= {bodyWash8}/>
-      <button className='bodyWash-btn8'>Add to cart</button>
-     </div>
-     <div>
-     <img  className='bodyWash9' src= {bodyWash9}/>
-      <button className='bodyWash-btn9'>Add to cart</button>
-     </div>
-     <div>
-     <img  className='bodyWash10' src= {bodyWash10}/>
-      <button className='bodyWash-btn10'>Add to cart</button>
-     </div>
-    </div>
 
+
+   <div className='bodyWash-item1' >
+        {data.product5Details.map((product) => (
+          <div key={product.id}>
+            <img className='image-5' src={product.Image} alt={product.name} />
+            <p className='bodyWash-price1' >Price: ${product.price}</p>
+            <div className='star-5'>
+            <FaStar /><FaStar /><FaStar /><FaStar /><FaRegStar />
+            </div>
+          </div>  
+        ))}
+      </div>
+
+      <div className='bodyWash-item2' >
+        {data.product6Details.map((product) => (
+          <div key={product.id}>
+            <img className='image-6'  src={product.Image} alt={product.name} />
+            <p className='bodyWash-price2' >Price: ${product.price}</p>
+            <div className='star-6'>
+            <FaStar /><FaStar /><FaStar /><FaStar /><FaRegStar />
+            </div>
+          </div>  
+        ))}
+      </div>
+
+   
 
     <div className='bodyCream'>
       <h3>BodyCream</h3>
@@ -90,49 +57,34 @@ const ForBody = () => {
     <RiDoubleQuotesR className='forBody-quote2' size= '2em' color='rgb(152, 122, 82)' />
    </div>
 
+   <div className='bodyCream-item1' >
+        {data.product7Details.map((product) => (
+          <div key={product.id}>
+            <img className='bodyCream-img'  src={product.Image} alt={product.name} />
+            <p className='bodyCream-price1' >Price: ${product.price}</p>
+            <div className='star-7'>
+            <FaStar /><FaStar /><FaStar /><FaStar /><FaRegStar />
+            </div>
+          </div>  
+        ))}
+      </div>
 
-<div className='bodyCream-title'>
-  <div>
-     <img  className='bodyCream1' src= {bodyCream1}/>
-      <button className='bodyCream-btn1'>Add to cart</button>
-  </div>
-  <div>
-     <img  className='bodyCream2' src= {bodyCream2}/>
-      <button className='bodyCream-btn2'>Add to cart</button>
-  </div>
-  <div>
-     <img  className='bodyCream3' src= {bodyCream3}/>
-      <button className='bodyCream-btn3'>Add to cart</button>
-  </div>
-  <div>
-     <img  className='bodyCream4' src= {bodyCream4}/>
-      <button className='bodyCream-btn4'>Add to cart</button>
-  </div>
-  <div>
-     <img  className='bodyCream5' src= {bodyCream5}/>
-      <button className='bodyCream-btn5'>Add to cart</button>
-  </div>
-  <div>
-     <img  className='bodyCream6' src= {bodyCream6}/>
-      <button className='bodyCream-btn6'>Add to cart</button>
-  </div>
-  <div>
-     <img  className='bodyCream7' src= {bodyCream7}/>
-      <button className='bodyCream-btn7'>Add to cart</button>
-  </div>
-  <div>
-     <img  className='bodyCream8' src= {bodyCream8}/>
-      <button className='bodyCream-btn8'>Add to cart</button>
-  </div>
-  <div>
-     <img  className='bodyCream9' src= {bodyCream9}/>
-      <button className='bodyCream-btn9'>Add to cart</button>
-  </div>
-  <div>
-     <img  className='bodyCream10' src= {bodyCream10}/>
-      <button className='bodyCream-btn10'>Add to cart</button>
-  </div>
-</div>
+      <div className='bodyCream-item2' >
+        {data.product8Details.map((product) => (
+          <div key={product.id}>
+            <img className='image-8'  src={product.Image} alt={product.name} />
+            <p className='bodyCream-price2' >Price: ${product.price}</p>
+            <div className='star-8'>
+            <FaStar /><FaStar /><FaStar /><FaStar /><FaRegStar />
+            </div>
+          </div>  
+        ))}
+      </div>
+
+
+
+
+
    </>
   )
 }

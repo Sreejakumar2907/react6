@@ -54,191 +54,9 @@
     left: 270px;
     font-size: 25px;
 }
-.bodyWash-items{
-    position: relative;
-    display: flex;
-    margin-bottom: 900px;
-}
-.bodyWash1{
-    position: absolute;
-    top: -550px;
-    left: 60px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.bodyWash2{
-    position: absolute;
-    top: -550px;
-    left: 345px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.bodyWash3{
-    position: absolute;
-    top: -550px;
-    left: 630px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.bodyWash4{
-    position: absolute;
-    top: -550px;
-    left: 920px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.bodyWash5{
-    position: absolute;
-    top: -550px;
-    left: 1200px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.bodyWash6{
-    position: absolute;
-    top: -150px;
-    left: 60px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.bodyWash7{
-    position: absolute;
-    top: -150px;
-    left: 345px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-    
-}
-.bodyWash8{
-    position: absolute;
-    top: -150px;
-    left: 630px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.bodyWash9{
-    position: absolute;
-    top: -150px;
-    left: 920px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.bodyWash10{
-    position: absolute;
-    top: -150px;
-    left: 1200px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}.bodyWash-btn1{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -290px;
-    left: 90px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.bodyWash-btn2{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -290px;
-    left: 375px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.bodyWash-btn3{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -290px;
-    left: 665px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.bodyWash-btn4{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -290px;
-    left: 955px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.bodyWash-btn5{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -290px;
-    left: 1235px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.bodyWash-btn6{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: 110px;
-    left: 90px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.bodyWash-btn7{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: 110px;
-    left: 375px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.bodyWash-btn8{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: 110px;
-    left: 665px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.bodyWash-btn9{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: 110px;
-    left: 955px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.bodyWash-btn10{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: 110px;
-    left: 1235px;
-    border: 1px solid beige;
-    background-color: beige;
-}
+
+
+
 .forBody-div-1{
     position: relative;
     height: 350px;
@@ -264,184 +82,141 @@
     display: flex;
     margin-bottom: 560px;
 }
-.bodyCream1{
-    position: absolute;
-    top: -400px;
-    left: 60px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.bodyCream2{
-    position: absolute;
-    top: -400px;
-    left: 345px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.bodyCream3{
-    position: absolute;
-    top: -400px;
-    left: 630px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.bodyCream4{
-    position: absolute;
-    top: -400px;
-    left: 920px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.bodyCream5{
-    position: absolute;
-    top: -400px;
-    left: 1200px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.bodyCream6{
-    position: absolute;
-    top: 10px;
-    left: 60px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.bodyCream7{
-    position: absolute;
-    top: 10px;
-    left: 345px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.bodyCream8{
-    position: absolute;
-    top: 10px;
-    left: 630px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.bodyCream9{
-    position: absolute;
-    top: 10px;
-    left: 920px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.bodyCream10{
-    position: absolute;
-    top: 10px;
-    left: 1200px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.bodyCream-btn1{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -140px;
-    left: 90px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.bodyCream-btn2{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -140px;
-    left: 375px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.bodyCream-btn3{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -140px;
-    left: 665px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.bodyCream-btn4{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -140px;
-    left: 955px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.bodyCream-btn5{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -140px;
-    left: 1235px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.bodyCream-btn6{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: 270px;
-    left: 90px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.bodyCream-btn7{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: 270px;
-    left: 375px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.bodyCream-btn8{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: 270px;
-    left: 665px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.bodyCream-btn9{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: 270px;
-    left: 955px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.bodyCream-btn10{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: 270px;
-    left: 1235px;
-    border: 1px solid beige;
-    background-color: beige;
-}
 
+ .bodyWash-item1{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 210px ;
+    top: -600px;
+    margin-left: 50px;  
+}
+.image-5{
+    position: absolute;
+    width: 250px;
+    height: 230px;
+    border-radius: 10px;
+    top: 70px;
+}
+ .bodyWash-price1{
+    position: relative;
+    top: 330px;
+    left: 85px;
+    color: beige;
+}
+.star-5{
+    position: relative;
+    color: beige;
+    top: 325px;
+    left: 85px;
+} 
+
+
+
+.bodyWash-item2{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 210px ;
+    top: -200px;
+     margin-left: 50px;   
+    margin-bottom: 900px;
+}
+.image-6{
+    position: absolute;
+    width: 250px;
+    height: 230px;
+    border-radius: 10px;
+    top: 90px;
+}
+ .bodyWash-price2{
+    position: relative;
+    top: 350px;
+    left: 85px;
+    color: beige;
+} 
+ .star-6{
+    position: relative;
+    color: beige;
+    top: 340px;
+    left: 85px;
+} 
+ .bodyCream-item1{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 210px;  
+    margin-left: 50px;  
+} 
+.bodyCream-img{
+    position: absolute;
+    width: 250px;
+    height: 230px; 
+    border-radius: 10px;
+    top: -400px;
+}
+ .bodyCream-price1{
+    position: relative;
+    top: -140px;
+    left: 85px;
+    color: beige;
+} 
+ .star-7{
+    position: relative;
+    color: beige;
+    top: -150px;
+    left: 85px;
+} 
+.bodyCream-item2{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 210px ;
+    /* top: 330px; */
+     margin-left: 50px; 
+    margin-bottom: 470px;  
+}
+.image-8{
+    position: absolute;
+    width: 250px;
+    height: 230px;
+    border-radius: 10px;
+    top: -90px;
+}
+ .bodyCream-price2{
+    position: relative;
+    top: 170px;
+    left: 85px;
+    color: beige;
+} 
+ .star-8{
+    position: relative;
+    color: beige;
+    top: 160px;
+    left: 85px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+/* .bodyCream-item1{
+    position: relative;
+    top: 350px;
+    left: 85px;
+    color: beige;
+}
+.image-7{
+    position: absolute;
+    width: 250px;
+    height: 230px;
+    border-radius: 10px;
+    top: 90px;
+}  */

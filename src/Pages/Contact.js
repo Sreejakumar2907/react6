@@ -14,7 +14,7 @@ const Contact = () => {
       <RiDoubleQuotesR className='contact-quote2' size= '2em' color='rgb(152, 122, 82)'  />
     </div>
     <div className='connect'>
-      <h3>Let get connected</h3>
+      <h3>Let's get connected</h3>
     </div>
     <div className='informations'>
       <p className='contact-para1'>Address: Kairbetta Hosahatty Donnington Kotagiri.</p>

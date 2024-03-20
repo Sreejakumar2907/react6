@@ -52,567 +52,20 @@
     left: 230px;
     font-size: 25px;
 }
-.star1{
-position: relative;
-top: -235px;
-}
-.rating1{
-    position: absolute;
-    left: 130px;
-}
-.rating2{
-    position: absolute;
-    left: 150px;
-}
-.rating3{
-    position: absolute;
-    left: 170px;
-}
-.rating4{
-    position: absolute;
-    left: 190px;
-}
-.rating5{
-    position: absolute;
-    left: 210px;
-}
-.star2{
-    position: relative;
-    top: -235px;
-    }
-.star2-rating1{
-        position: absolute;
-        left: 420px;
-    }
-.star2-rating2{
-        position: absolute;
-        left: 440px;
-    }
-.star2-rating3{
-        position: absolute;
-        left: 460px;
-    }
-.star2-rating4{
-        position: absolute;
-        left: 480px;
-    }
-.star2-rating5{
-        position: absolute;
-        left: 500px;
-    }
-.star3{
-        position: relative;
-        top: -235px;
-        }
-.star3-rating1{
-            position: absolute;
-            left: 710px;
-        }
-.star3-rating2{
-            position: absolute;
-            left: 730px;
-        }
-.star3-rating3{
-            position: absolute;
-            left: 750px;
-        }
-.star3-rating4{
-            position: absolute;
-            left: 770px;
-        }
-.star3-rating5{
-            position: absolute;
-            left: 790px;
-        }
-.star4{
-        position: relative;
-        top: -235px;
-        }
-.star4-rating1{
-            position: absolute;
-            left: 1000px;
-        }
-.star4-rating2{
-            position: absolute;
-            left: 1020px;
-        }
-.star4-rating3{
-            position: absolute;
-            left: 1040px;
-        }
-.star4-rating4{
-            position: absolute;
-            left: 1060px;
-        }
-.star4-rating5{
-            position: absolute;
-            left: 1080px;
-        }
-.star5{
-        position: relative;
-        top: -235px;
-        }
-.star5-rating1{
-            position: absolute;
-            left: 1280px;
-        }
-.star5-rating2{
-            position: absolute;
-            left: 1300px;
-        }
-.star5-rating3{
-            position: absolute;
-            left: 1320px;
-        }
-.star5-rating4{
-            position: absolute;
-            left: 1340px;
-        }
-.star5-rating5{
-            position: absolute;
-            left: 1360px;
-        }
-.star6{
-        position: relative;
-        top: 220px;
-        }
-.star6-rating1{
-            position: absolute;
-            left: 130px;
-        }
-.star6-rating2{
-            position: absolute;
-            left: 150px;
-        }
-.star6-rating3{
-            position: absolute;
-            left: 170px;
-        }
-.star6-rating4{
-            position: absolute;
-            left: 190px;
-        }
-.star6-rating5{
-            position: absolute;
-            left: 210px;
-        }
-.star7{
-        position: relative;
-        top:220px;
-        }
-.star7-rating1{
-            position: absolute;
-            left: 420px;
-        }
-.star7-rating2{
-            position: absolute;
-            left: 440px;
-        }
-.star7-rating3{
-            position: absolute;
-            left: 460px;
-        }
-.star7-rating4{
-            position: absolute;
-            left: 480px;
-        }
-.star7-rating5{
-            position: absolute;
-            left: 500px;
-        }
-.star8{
-        position: relative;
-        top: 220px;
-        }
-.star8-rating1{
-            position: absolute;
-            left: 710px;
-        }
-.star8-rating2{
-            position: absolute;
-            left: 730px;
-        }
-.star8-rating3{
-            position: absolute;
-            left: 750px;
-        }
-.star8-rating4{
-            position: absolute;
-            left: 770px;
-        }
-.star8-rating5{
-            position: absolute;
-            left: 790px;
-        }
-.star9{
-        position: relative;
-        top: 220px;
-        }
-.star9-rating1{
-            position: absolute;
-            left: 1000px;
-        }
-.star9-rating2{
-            position: absolute;
-            left: 1020px;
-        }
-.star9-rating3{
-            position: absolute;
-            left: 1040px;
-        }
-.star9-rating4{
-            position: absolute;
-            left: 1060px;
-        }
-.star9-rating5{
-            position: absolute;
-            left: 1080px;
-        }
-.star10{
-        position: relative;
-        top: 220px;
-        }
-.star10-rating1{
-            position: absolute;
-            left: 1280px;
-        }
-.star10-rating2{
-            position: absolute;
-            left: 1300px;
-        }
-.star10-rating3{
-            position: absolute;
-            left: 1320px;
-        }
-.star10-rating4{
-            position: absolute;
-            left: 1340px;
-        }
-.star10-rating5{
-            position: absolute;
-            left: 1360px;
-        }
-.star11{
-        position: relative;
-        top: -320px;
-        }
-.star11-rating1{
-            position: absolute;
-            left: 130px;
-        }
-.star11-rating2{
-            position: absolute;
-            left: 150px;
-        }
-.star11-rating3{
-            position: absolute;
-            left: 170px;
-        }
-.star11-rating4{
-            position: absolute;
-            left: 190px;
-        }
-.star11-rating5{
-            position: absolute;
-            left: 210px;
-        }
-.star12{
-        position: relative;
-        top: -320px;
-        }
-.star12-rating1{
-            position: absolute;
-            left: 420px;
-        }
-.star12-rating2{
-            position: absolute;
-            left: 440px;
-        }
-.star12-rating3{
-            position: absolute;
-            left: 460px;
-        }
-.star12-rating4{
-            position: absolute;
-            left: 480px;
-        }
-.star12-rating5{
-            position: absolute;
-            left: 500px;
-        }
-.star13{
-        position: relative;
-        top: -320px;
-        }
-.star13-rating1{
-            position: absolute;
-            left: 710px;
-        }
-.star13-rating2{
-            position: absolute;
-            left: 730px;
-        }
-.star13-rating3{
-            position: absolute;
-            left: 750px;
-        }
-.star13-rating4{
-            position: absolute;
-            left: 770px;
-        }
-.star13-rating5{
-            position: absolute;
-            left: 790px;
-        }
-.star14{
-        position: relative;
-        top: -320px;
-        }
-.star14-rating1{
-            position: absolute;
-            left: 1000px;
-        }
-.star14-rating2{
-            position: absolute;
-            left: 1020px;
-        }
-.star14-rating3{
-            position: absolute;
-            left: 1040px;
-}
-.star14-rating4{
-            position: absolute;
-            left: 1060px;
-        }
-.star14-rating5{
-            position: absolute;
-            left: 1080px;
-        }
- .star15{
-        position: relative;
-        top: -320px;
-        }
-.star15-rating1{
-            position: absolute;
-            left: 1000px;
-        }
-.star15-rating2{
-            position: absolute;
-            left: 1020px;
-        }
-.star15-rating3{
-            position: absolute;
-            left: 1040px;
-}
-.star15-rating4{
-            position: absolute;
-            left: 1060px;
-        }
-.star15-rating5{
-            position: absolute;
-            left: 1080px;
-        }
-.faceWash1{
-    position: absolute;
-    top: -550px;
-    left: 60px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.faceWash2{
-    position: absolute;
-    top: -550px;
-    left: 345px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.faceWash3{
-    position: absolute;
-    top: -550px;
-    left: 630px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.faceWash4{
-    position: absolute;
-    top: -550px;
-    left: 920px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.faceWash5{
-    position: absolute;
-    top: -550px;
-    left: 1200px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.faceWash6{
-    position: absolute;
-    top: -110px;
-    left: 60px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.faceWash7{
-    position: absolute;
-    top: -110px;
-    left: 345px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.faceWash8{
-    position: absolute;
-    top: -110px;
-    left: 630px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.faceWash9{
-    position: absolute;
-    top: -110px;
-    left: 920px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.faceWash10{
-    position: absolute;
-    top: -110px;
-    left: 1200px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.faceWash1-rs{
-    position: absolute;
-    top: -200px;
-}
-.items{
-    position: relative;
-   display: flex;
-   margin-bottom: 600px;
-}
-.btn1{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -300px;
-    left: 90px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.btn2{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -300px;
-    left: 375px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.btn3{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -300px;
-    left: 665px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.btn4{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -300px;
-    left: 955px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.btn5{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -300px;
-    left: 1235px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.btn6{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: 150px;
-    left: 90px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.btn7{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: 150px;
-    left: 375px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.btn8{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: 150px;
-    left: 665px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.btn9{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: 150px;
-    left: 955px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.btn10{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: 150px;
-    left: 1235px;
-    border: 1px solid beige;
-    background-color: beige;
-}.faceCream{
+
+.faceCream{
     height: 300px;
     width: 600px;
     border: 1px solid beige;
     position: relative;
-    top: -240px;
+    top: 400px;
     left: 470px;
     border-radius: 15px;
     background-color: beige;
     margin-bottom: 500px;
 }.title-2{
     position: relative;
-    top: -320px;
+    top: 300px;
     
     
 }.title-2 h3{
@@ -620,188 +73,124 @@ top: -235px;
     left: 710px;
     color: beige;
 }
-.items-2{
+
+.faceWash-items{
     position: relative;
-     display: flex; 
-     margin-bottom: 290px;
-     
-}
-.faceCream1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 210px ;
+    top: -600px;
+    margin-left: 50px;  
+} 
+.image{
     position: absolute;
-    top: -650px;
-    left: 60px;
-    border-radius: 15px;
     width: 250px;
     height: 230px;
+    border-radius: 10px;
+    top: 70px;
+  
 }
-.faceCream2{
+.faceWash-price{
+    position: relative;
+    top: 330px;
+    left: 85px;
+    color: beige;
+}
+
+
+.faceWash-items-2{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 210px ;
+    top: -200px;
+    margin-left: 50px;  
+} 
+.image-2{
     position: absolute;
-    top: -650px;
-    left: 345px;
-    border-radius: 15px;
     width: 250px;
     height: 230px;
+    border-radius: 10px;
+    top: 90px;
+  
 }
-.faceCream3{
+.faceWash-price2{
+    position: relative;
+    top: 350px;
+    left: 85px;
+    color: beige;
+}
+
+
+.faceCream-items-1{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 210px ;
+    top: -100px;
+    margin-left: 50px;  
+} 
+.image-3{
     position: absolute;
-    top: -650px;
-    left: 630px;
-    border-radius: 15px;
     width: 250px;
     height: 230px;
+    border-radius: 10px;
+    top: 90px;
+  
 }
-.faceCream4{
+.faceCream-price1{
+    position: relative;
+    top: 350px;
+    left: 85px;
+    color: beige;
+}
+
+
+.faceCream-items-2{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 210px ;
+    top: 330px;
+    margin-left: 50px;
+    margin-bottom: 990px;  
+} 
+.image-4{
     position: absolute;
-    top: -650px;
-    left: 920px;
-    border-radius: 15px;
     width: 250px;
     height: 230px;
-}
-.faceCream5{
-    position: absolute;
-    top: -650px;
-    left: 1200px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.faceCream6{
-    position: absolute;
-    top: -250px;
-    left: 60px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.faceCream7{
-    position: absolute;
-    top: -250px;
-    left: 345px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.faceCream8{
-    position: absolute;
-    top: -250px;
-    left: 630px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.faceCream9{
-    position: absolute;
-    top: -250px;
-    left: 920px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}
-.faceCream10{
-    position: absolute;
-    top: -250px;
-    left: 1200px;
-    border-radius: 15px;
-    width: 250px;
-    height: 230px;
-}.btn11{
-    width: 190px;
-    height: 50px;
     border-radius: 10px;
-    position: absolute;
-    top: -390px;
-    left: 90px;
-    border: 1px solid beige;
-    background-color: beige;
+    top: 90px;
+  
 }
-.btn12{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -390px;
-    left: 375px;
-    border: 1px solid beige;
-    background-color: beige;
+.faceCream-price2{
+    position: relative;
+    top: 350px;
+    left: 85px;
+    color: beige;
 }
-.btn13{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -390px;
-    left: 665px;
-    border: 1px solid beige;
-    background-color: beige;
+
+.star{
+    position: relative;
+    color: beige;
+    top: 325px;
+    left: 85px;
 }
-.btn14{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -390px;
-    left: 955px;
-    border: 1px solid beige;
-    background-color: beige;
+.star-2{
+    position: relative;
+    color: beige;
+    top: 340px;
+    left: 85px;
 }
-.btn15{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: -390px;
-    left: 1235px;
-    border: 1px solid beige;
-    background-color: beige;
+.star-3{
+    position: relative;
+    color: beige;
+    top: 340px;
+    left: 85px;
 }
-.btn16{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: 10px;
-    left: 90px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.btn17{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: 10px;
-    left: 375px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.btn18{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: 10px;
-    left: 665px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.btn19{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: 10px;
-    left: 955px;
-    border: 1px solid beige;
-    background-color: beige;
-}
-.btn20{
-    width: 190px;
-    height: 50px;
-    border-radius: 10px;
-    position: absolute;
-    top: 10px;
-    left: 1235px;
-    border: 1px solid beige;
-    background-color: beige;
+.star-4{
+    position: relative;
+    color: beige;
+    top: 340px;
+    left: 85px;
 }
