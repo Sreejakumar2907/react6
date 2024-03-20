@@ -9,6 +9,7 @@ const ForBody = () => {
    <>
    <div className='forBody-title'>
    <h3>BodyWash</h3>
+   <h2>hello</h2>
    </div>
    <div className='forBody-div'>
     <div className='forBody-line1'></div>
