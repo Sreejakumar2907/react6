@@ -5,9 +5,15 @@ import { FaStar,  } from "react-icons/fa6";
 import { FaRegStar } from "react-icons/fa";
 import { RiDoubleQuotesL,RiDoubleQuotesR } from "react-icons/ri";
 import data from '../Components/Data/Data'
+import { useState } from 'react'
+import Cart from '../Components/Cart/Cart';
 
 const ForFace = () => {
-  // const [cartItems,setCartItems]=useState([])
+  const [cart, setCart] = useState([]);
+
+  const addToCart = (product) => {
+    setCart([...cart, product]);
+  };
   return (
     <>
     <div className='title'>
@@ -29,7 +35,8 @@ const ForFace = () => {
             <img className='image' src={product.Image} alt={product.name} />
             <p className='faceWash-price'>Price: ${product.price}</p>
             <div className='star'>
-            <FaStar /><FaStar /><FaStar /><FaStar /><FaRegStar />
+            <FaStar /><FaStar /><FaStar /><FaStar /><FaRegStar /><br/>
+            <button className='addToCart' onClick={() => addToCart(product)}>Add to Cart</button>
             </div>
           </div>  
         ))}
@@ -42,6 +49,7 @@ const ForFace = () => {
             <p className='faceWash-price2'>Price: ${product.price}</p>
             <div className='star-2'>
             <FaStar /><FaStar /><FaStar /><FaRegStar /><FaRegStar />
+            <button className='addToCart' onClick={() => addToCart(product)}>Add to Cart</button>
             </div>
           </div>  
         ))}
@@ -68,6 +76,7 @@ const ForFace = () => {
             <img className='image-3' src={product.Image} alt={product.name} />
             <div className='star-3'>
             <FaStar /><FaStar /><FaStar /><FaRegStar /><FaRegStar />
+            <button className='addToCart' onClick={() => addToCart(product)}>Add to Cart</button>
             </div>
           </div> 
         ))}
@@ -81,10 +90,13 @@ const ForFace = () => {
             <img className='image-4' src={product.Image} alt={product.name} />
             <div className='star-4'>
             <FaStar /><FaStar /><FaStar /><FaStar /><FaRegStar />
+            <button className='addToCart' onClick={() => addToCart(product)}>Add to Cart</button>
             </div>
           </div> 
         ))}
       </div>
+
+      <Cart cart={cart}/>
     </>
 
 )

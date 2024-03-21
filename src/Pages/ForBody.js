@@ -4,7 +4,13 @@ import { RiDoubleQuotesL,RiDoubleQuotesR } from "react-icons/ri";
 import data from '../Components/Data/Data';
 import { FaStar,  } from "react-icons/fa6";
 import { FaRegStar } from "react-icons/fa";
+import { useState } from 'react'
 const ForBody = () => {
+  const [cart, setCart] = useState([]);
+
+  const addToCart = (product) => {
+    setCart([...cart, product]);
+  };
   return (
    <>
    <div className='forBody-title'>
@@ -28,6 +34,7 @@ const ForBody = () => {
             <p className='bodyWash-price1' >Price: ${product.price}</p>
             <div className='star-5'>
             <FaStar /><FaStar /><FaStar /><FaStar /><FaRegStar />
+            <button className='addToCart' onClick={() => addToCart(product)}>Add to Cart</button>
             </div>
           </div>  
         ))}
@@ -40,6 +47,7 @@ const ForBody = () => {
             <p className='bodyWash-price2' >Price: ${product.price}</p>
             <div className='star-6'>
             <FaStar /><FaStar /><FaStar /><FaStar /><FaRegStar />
+            <button className='addToCart' onClick={() => addToCart(product)}>Add to Cart</button>
             </div>
           </div>  
         ))}
@@ -65,6 +73,7 @@ const ForBody = () => {
             <p className='bodyCream-price1' >Price: ${product.price}</p>
             <div className='star-7'>
             <FaStar /><FaStar /><FaStar /><FaStar /><FaRegStar />
+            <button className='addToCart' onClick={() => addToCart(product)}>Add to Cart</button>
             </div>
           </div>  
         ))}
@@ -77,6 +86,7 @@ const ForBody = () => {
             <p className='bodyCream-price2' >Price: ${product.price}</p>
             <div className='star-8'>
             <FaStar /><FaStar /><FaStar /><FaStar /><FaRegStar />
+            <button className='addToCart' onClick={() => addToCart(product)}>Add to Cart</button>
             </div>
           </div>  
         ))}

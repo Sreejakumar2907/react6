@@ -46,12 +46,7 @@
 }
 .ingredients{
     position: relative;
-     top: -1300px; 
-    /* background-image: url("https://plus.unsplash.com/premium_photo-1661340660012-72db7c726ae9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjA5fHxuYXR1cmFsJTIwc29hcHxlbnwwfHwwfHx8MA%3D%3D"); */
-    /* object-fit: cover;
-    background-repeat: no-repeat;
-    background-size: cover; */
-   
+     top: -1300px;  
 }
 .ingredients h3{
     left: 650px;

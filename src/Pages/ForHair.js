@@ -4,7 +4,13 @@ import { RiDoubleQuotesL , RiDoubleQuotesR} from "react-icons/ri";
 import data from '../Components/Data/Data';
 import { FaStar,  } from "react-icons/fa6";
 import { FaRegStar } from "react-icons/fa";
+import { useState } from 'react'
 const ForHair = () => {
+  const [cart, setCart] = useState([]);
+
+  const addToCart = (product) => {
+    setCart([...cart, product]);
+  };
   return (
     <>
     <div className='forHair-title'>
@@ -25,6 +31,7 @@ const ForHair = () => {
             <p className='hairOil-price1' >Price: ${product.price}</p>
             <div className='star-9'>
             <FaStar /><FaStar /><FaStar /><FaStar /><FaRegStar />
+            <button className='addToCart' onClick={() => addToCart(product)}>Add to Cart</button>
             </div>
           </div>  
         ))}
@@ -37,6 +44,7 @@ const ForHair = () => {
             <p className='hairOil-price2' >Price: ${product.price}</p>
             <div className='star-10'>
             <FaStar /><FaStar /><FaStar /><FaStar /><FaRegStar />
+            <button className='addToCart' onClick={() => addToCart(product)}>Add to Cart</button>
             </div>
           </div>  
         ))}
@@ -61,6 +69,7 @@ const ForHair = () => {
             <p className='shampoo-price1' >Price: ${product.price}</p>
             <div className='star-11'>
             <FaStar /><FaStar /><FaStar /><FaStar /><FaRegStar />
+            <button className='addToCart' onClick={() => addToCart(product)}>Add to Cart</button>
             </div>
           </div>  
         ))}
@@ -73,6 +82,7 @@ const ForHair = () => {
             <p className='shampoo-price2' >Price: ${product.price}</p>
             <div className='star-12'>
             <FaStar /><FaStar /><FaStar /><FaStar /><FaRegStar />
+            <button className='addToCart' onClick={() => addToCart(product)}>Add to Cart</button>
             </div>
           </div>  
         ))}

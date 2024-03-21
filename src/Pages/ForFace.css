@@ -194,3 +194,12 @@
     top: 340px;
     left: 85px;
 }
+.addToCart{
+    position: absolute;
+    border: 1px solid beige;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    top: 40px;
+    left: -30px;
+}

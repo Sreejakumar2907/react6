@@ -1,0 +1,21 @@
+
+.cart-items li{
+     list-style-type: none; 
+}
+.cart-images{
+    
+    width: 250px;
+    height: 230px;
+    border-radius: 10px;
+    
+}
+.cart-li{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 20px;
+
+    align-items: center;
+}
+.cart-price{
+    color: beige;
+}
