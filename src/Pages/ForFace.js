@@ -33,6 +33,7 @@ const ForFace = () => {
         {data.productDetails.map((product) => (
           <div key={product.id}>
             <img className='image' src={product.Image} alt={product.name} />
+            <h4>{product.name}</h4>
             <p className='faceWash-price'>Price: ${product.price}</p>
             <div className='star'>
             <FaStar /><FaStar /><FaStar /><FaStar /><FaRegStar /><br/>

@@ -11,7 +11,7 @@ const Cart = ({cart}) => {
           <li className='cart-li' key={index}>
             <img className='cart-images' src={product.Image}/>
             <h3 className='cart-price'> {product.price}</h3>
-            <h3> name</h3>
+            <h3> {product.name}</h3>
             {/* {product.name} - ${product.price} {product.image} */}
           </li>
         ))}
