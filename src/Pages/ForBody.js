@@ -5,12 +5,8 @@ import data from '../Components/Data/Data';
 import { FaStar,  } from "react-icons/fa6";
 import { FaRegStar } from "react-icons/fa";
 import { useState } from 'react'
-const ForBody = () => {
-  const [cart, setCart] = useState([]);
-
-  const addToCart = (product) => {
-    setCart([...cart, product]);
-  };
+const ForBody = ({addToCart}) => {
+ 
   return (
    <>
    <div className='forBody-title'>

@@ -5,13 +5,8 @@ import data from '../Components/Data/Data';
 import { FaStar,  } from "react-icons/fa6";
 import { FaRegStar } from "react-icons/fa";
 import { useState } from 'react'
-const ForHair = () => {
-  const [cart, setCart] = useState([]);
-
-  const addToCart = (product) => {
-    setCart([...cart, product]);
-  };
-  return (
+const ForHair = ({addToCart}) => {
+ return (
     <>
     <div className='forHair-title'>
        <h3>HairOil</h3>

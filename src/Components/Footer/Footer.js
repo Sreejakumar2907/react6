@@ -8,10 +8,10 @@ const Footer = () => {
      <>
      <div className='footer'>
      <h3>Care & Fair</h3>
-    <div className='div1'> <a href='#'><FaInstagram  className='icon'/></a> </div>
-    <div className='div2'> <a href='#'><CiFacebook  className='icon'/></a> </div>
-   <div className='div3'> <a href='#'><CiLinkedin   className='icon'/></a> </div>
-    <div className='div4'><a href='#'><CiTwitter  className='icon'/></a> </div>
+    <div className='div1'> <a href='https://www.instagram.com/kupsi_2907/'><FaInstagram  className='icon'/></a> </div>
+    <div className='div2'> <a href='https://www.facebook.com/'><CiFacebook  className='icon'/></a> </div>
+   <div className='div3'> <a href='https://www.linkedin.com/in/sreeja-kumar-76a0b4285/'><CiLinkedin   className='icon'/></a> </div>
+    <div className='div4'><a href='https://twitter.com/i/flow/login'><CiTwitter  className='icon'/></a> </div>
      </div>
      <hr className='hr'/>
 

@@ -8,12 +8,7 @@ import data from '../Components/Data/Data'
 import { useState } from 'react'
 import Cart from '../Components/Cart/Cart';
 
-const ForFace = () => {
-  const [cart, setCart] = useState([]);
-
-  const addToCart = (product) => {
-    setCart([...cart, product]);
-  };
+const ForFace = ({addToCart}) => { 
   return (
     <>
     <div className='title'>
@@ -97,7 +92,7 @@ const ForFace = () => {
         ))}
       </div>
 
-      <Cart cart={cart}/>
+  
     </>
 
 )

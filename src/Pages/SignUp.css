@@ -1,0 +1,108 @@
+.login{
+    position: relative;
+    top: -720px;
+    left: 600px;
+    border: 1px solid beige;
+    border-radius: 5px;
+    background-color: beige;
+    width: 330px;
+    height: 330px;
+    margin-bottom: -500px;
+}
+.login h2{
+    margin-top: 20px;
+    color: rgb(152, 122, 82);
+}
+.login-span{
+    text-decoration: none;
+    margin-left: 60px;
+    color: rgb(152, 122, 82);
+}
+.email{
+    position: absolute;
+    left: 45px;
+    top: 80px;
+    width: 230px;
+    border-radius: 5px;
+    background-color:rgb(152, 122, 82) ;
+    border: 1px solid  rgb(152, 122, 82);
+}
+.email-icon{
+    position: absolute;
+    left: 250px;
+    top: 85px;
+}
+.password{
+    position: absolute;
+    left: 45px;
+    top: 120px;
+    width: 230px;
+    border-radius: 5px;
+    background-color:rgb(152, 122, 82) ;
+    border: 1px solid  rgb(152, 122, 82);
+}
+.password-icon{
+    position: absolute;
+    left: 250px;
+    top: 125px;
+    
+}
+.confirm-password{
+    position: absolute;
+    left: 45px;
+    top: 160px;
+    width: 230px;
+    border-radius: 5px;
+    background-color:rgb(152, 122, 82) ;
+    border: 1px solid  rgb(152, 122, 82);
+}
+::placeholder{
+    color: beige;
+    padding-left: 7px;
+    font-size: 14px;
+}
+.Signup-btn{
+    position: absolute;
+    left: 110px;
+    top: 200px;
+    width: 100px;
+    border: 1px solid  rgb(152, 122, 82);
+    background-color: rgb(152, 122, 82) ;
+    border-radius: 5px;
+    color: beige;
+}
+.heading{
+    margin-left: 60px;
+}
+.signUp{
+text-decoration: none;
+color:  rgb(152, 122, 82);
+}
+.Login-btn{
+    position: absolute;
+    top: 160px;
+    width: 100px;
+    left: 100px;
+    border: 1px solid  rgb(152, 122, 82);
+    background-color:rgb(152, 122, 82) ;
+    color: beige;
+    border-radius: 5px;
+}
+.authDetails{
+    position: absolute;
+    left: 70px;
+    text-align: center;
+    top: 200px;
+    color:  rgb(152, 122, 82);
+}
+.exit{
+    position: absolute;
+    top: 40px;
+    width: 100px;
+    left: 30px;
+    border: 1px solid  rgb(152, 122, 82);
+    border-radius: 5px;
+}
+.signed-out{
+    margin-left: 45px;
+}

@@ -10,6 +10,8 @@ import Contact from '../Pages/Contact';
 // import Cart from '../Components/Cart/Cart';
  import { useState } from 'react'
 import Cart from '../Components/Cart/Cart';
+import Login from '../Pages/Login';
+import SignUp from '../Pages/Signup';
 
 
 
@@ -17,7 +19,8 @@ import Cart from '../Components/Cart/Cart';
 
 const Routers = ({productDetails}) => {
   // const [cart, setCart] = useState([]);
-  const [cart, setCart] = useState([]); 
+  const [cart, setCart] = useState([]);
+  console.log("cartItems:",cart); 
   const addToCart = (product) => {
     setCart([...cart, product]);
   }
@@ -28,10 +31,12 @@ const Routers = ({productDetails}) => {
     <Route path="home" element={<Home/>} />
     <Route path="about" element={<About/>} />
     <Route path='forFace' element= {<ForFace  productDetails={productDetails} addToCart={addToCart} />}/>
-    <Route path='forBody' element= {<ForBody  productDetails={productDetails} />}/>
-    <Route path='forHair' element= {<ForHair/>}/>
+    <Route path='forBody' element= {<ForBody  productDetails={productDetails} addToCart={addToCart} />}/>
+    <Route path='forHair' element= {<ForHair productDetails={productDetails} addToCart={addToCart}/>}/>
+    <Route path="login" element={<Login/>} />
+    <Route path="signup" element={<SignUp/>} />
     <Route path="contact" element={<Contact/>} />
-    <Route path="cart" element={<Cart cart={cart} />} />
+    <Route path="cart" element={<Cart cart={cart} setCart={setCart} /> } />
    </Routes>
    </>
   )

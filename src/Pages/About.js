@@ -3,7 +3,6 @@ import '../Pages/About.css'
 import { RiDoubleQuotesL,RiDoubleQuotesR } from "react-icons/ri";
 import Soap from '../asserts/Image/natural-soap.webp'
 import bgNaturals from '../asserts/Image/bg-natural.jpg'
-// import Cart from '../Components/Cart/Cart';
 const About = () => {
   return (
    <>
@@ -35,7 +34,7 @@ const About = () => {
     <p>- MADE JUST FOR YOU...!!!</p>
    </div>
    </div>
-   {/* <Cart cart={cart}/> */}
+  
    </>
   )
 }

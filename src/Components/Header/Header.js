@@ -23,6 +23,7 @@ const Header = () => {
       <Link to='/forBody'> ForBody </Link>
       <Link to='/forHair'> ForHair </Link>
       <Link to='/contact'> Contact </Link>
+      <Link to='/signup'> <CgProfile /> SignUp </Link>
       <Link to='/login'> <CgProfile /> Login </Link>
       <Link to='/cart'> <MdOutlineShoppingBag />  Cart </Link>
      

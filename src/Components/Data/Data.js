@@ -69,7 +69,6 @@ const data = {
         id:1,
         price:899,
         Image: faceWash1,
-        name: "naturalOil"
     },
     {
         id:2,
